@@ -39,7 +39,6 @@ if st.button("Buscar"):
     else:
         st.warning("Nenhum resultado encontrado para a chave fornecida.")
 
-# Botão para limpar os campos
 if st.button("Próxima NF"):
-    st.experimental_rerun()
-
+    # Redefina variáveis ou limpe estados manualmente
+    st.session_state.clear()
