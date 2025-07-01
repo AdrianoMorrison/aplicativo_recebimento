@@ -7,7 +7,7 @@ def get_connection():
         "Database=DB_VIEWS;"       # Atualize para o seu banco de dados
         "UID=Logistica_OPCD;"
         "PWD=Log1_Op@CD123;"
-        "LoginTimeout=30;" # Adicione esta linha"
+        "LoginTimeout=60;" # Adicione esta linha"
     )
     return connection
 # Bloco para testar a conexão
