@@ -96,7 +96,7 @@ def fetch_order_info(chave_nfe):
 
         FROM AGENDAMENTO_FINAL A
 
-        LEFT JOIN SS_PORTAL_CSRF_RELATORIO2 B 
+        LEFT JOIN SS_PORTAL_CSRF_RELATORIO B 
 			ON B.CHAVE_NFE = A.CHAVE_NFE
 
         FULL JOIN DOCA_PIT C 
