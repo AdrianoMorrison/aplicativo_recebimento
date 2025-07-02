@@ -16,7 +16,7 @@ def buscar(chave_nfe):
         return None
 
 # Interface Streamlit
-st.title("Consulta de Nota Fiscal - Entrada Loja")
+st.title("Consulta de Nota Fiscal - Entrada Loja - BRASIL")
 
 # Entrada para a CHAVE NFE
 chave_nfe = st.text_input("Insira a CHAVE NFE:", "")
